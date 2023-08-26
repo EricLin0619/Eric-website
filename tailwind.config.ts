@@ -13,8 +13,16 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      keyframes: {
+        cursor: {
+          '50%': { borderCorlor: 'rotate(-3deg)' },
+        },
+        typing: {
+          'from, 50%, to': { width: '0' },
+        }
+      }
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 }
 export default config

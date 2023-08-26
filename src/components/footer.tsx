@@ -1,4 +1,3 @@
-'use client'
 function Footer() {
     return ( 
         <div>

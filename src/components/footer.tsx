@@ -1,8 +1,9 @@
+"use client";
 function Footer() {
     return ( 
-        <div>
+        <footer>
             
-        </div>
+        </footer>
      );
 }
 

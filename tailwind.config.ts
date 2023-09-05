@@ -14,11 +14,30 @@ const config: Config = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       keyframes: {
-        cursor: {
-          '50%': { borderCorlor: 'rotate(-3deg)' },
+        'usemove': {
+          '100%': {
+            transform: 'translate(20px,20px)',
+          },
         },
-        typing: {
-          'from, 50%, to': { width: '0' },
+        'smallBallmove': {
+          '100%': {
+            transform: 'translate(0px,10px)',
+          },
+        },
+        'bigBallmove': {
+          '0%': {},
+          '25%': {
+            transform: 'translate(5px,0px)',
+          },
+          '50%': {
+            transform: 'translate(5px,5px)',
+          },
+          '75%': {
+            transform: 'translate(0px,5px)',
+          },
+          '100%': {
+            transform: 'translate(0px,0px)',
+          }
         }
       }
     },
